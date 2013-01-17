@@ -1,0 +1,24 @@
+13 Jan 2011, v1.2.1
+Nelson Chan
+    * hide subnet with 0 host requirement  in UI (cli,gtk)
+    * minor code clean up
+    * added VLSM_VERSION macro to vlsm.h
+
+11 Jan 2011, v1.2
+Nelson Chan
+    * added Enter button
+    * added slash mask in Address column
+    * tweak window size
+    * fixed a buffer overflow flaw with gtk_main_window.c @tmpstr
+    
+11 Jan 2011, v1.1
+Nelson Chan
+    * added 1 new function to vlsm.c (ipv4tonet)
+    * added GTK+ GUI
+    * vlsm::strtoipv4() now also accept comma besides dot
+    * TODO: pop up alerts when user input is invalid
+
+9 Jan 2011, v1.0
+Nelson Chan 
+    *initial release
+  
